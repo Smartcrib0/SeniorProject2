@@ -178,6 +178,6 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# تحرير موارد الكاميرا وإغلاق جميع نوافذ OpenCV
+# تحرير موارد الكاميرا وإغلاق جميع نوافذ OpenCVc
 cap.release()
 cv2.destroyAllWindows()
